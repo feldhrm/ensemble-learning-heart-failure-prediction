@@ -8,5 +8,18 @@ Dalam dataset riawyat kesehatan pasien dengan gangguan kardiovaskular, diperluka
 - Feature - feature dalam dataset dianggap memiliki bobot yang sama dalam menentukan _outcome_ prediksi. Tidak akan dikalkulasi bagaimana hubungan feature dengan outcome.
 - Dalam prediksi apakah pasien lebih berkemungkinan untuk tetap hidup atau meninggal, selain nilai **akurasi** yang baik, diinginkan pula nilai **recall** / _sensitivity_ dari model yang lebih tinggi dari nilai _precision_. Lebih diinginkan prediksi akan meninggal yang benar agar pasien dan keluarganya dapat diinformasikan mengenai kondisi medisnya dan kemungkinan terburuk. Namun nilai **_precision_** yang baik juga diharapkan agar memastikan probabilitas pasien yang masih akan hidup diklasifikasikan sebagaimana mestinya.
 
+## Project Overview
+1. Import Library
+2. Data Loading
+3. Exploratory Data Analysis (EDA)
+4. Data Cleaning / Preprocessing
+5. Feature Selection
+6. Scaling
+7. Model Definition
+8. Model Training
+9. Model Evaluation
+10. Model Inference
+11. Conclusion
+
 ## Link to the Dataset
 https://www.kaggle.com/andrewmvd/heart-failure-clinical-dat
